@@ -18,22 +18,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-
                 <li class="nav-item">
                   <a class="nav-link" href="#">Понедельник</a>
                 </li>
-                <li  class="nav-item">
+                <li class="nav-item">
                   <a class="nav-link" href="#">Вторник</a>
                 </li>
-                <li  class="nav-item">
+                <li class="nav-item">
                   <a class="nav-link" href="#">Среда</a>
                 </li>
-                <li  class="nav-item">
+                <li class="nav-item">
                   <a class="nav-link" href="#">Четверг</a>
                 </li>
-                <li  class="nav-item">
-                  <a  class="nav-link" href="#">Пятница</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Пятница</a>
                 </li>
               </ul>
             </div>
@@ -44,7 +42,7 @@
 
     <section class="listCard">
       <div class="container">
-        <ul  class="list-group">
+        <ul class="list-group">
           <li class="list-group-item">{{ days[0] }}</li>
           <li class="list-group-item">
             {{ subject[1] }}
@@ -54,43 +52,43 @@
           <li class="list-group-item">
             {{ subject[2] }} {{ numberCabs.cab102 }} {{ timeSub[12] }}
           </li>
-          <li class="list-group-item">{{ subject[3] }} {{ timeSub[13] }}</li>
           <li class="list-group-item">
-            {{ subject[2] }} {{ numberCabs.cab102 }} {{ timeSub[14] }}
+            {{ subject[2] }} {{ numberCabs.cab102 }} {{ timeSub[13] }}
+          </li>
+          <li class="list-group-item">{{ subject[3] }} {{ timeSub[14] }}</li>
+          <li class="list-group-item">
+            {{ subject[9] }} {{ numberCabs.cab102 }} {{ timeSub[15] }}
           </li>
           <li class="list-group-item">
-            {{ subject[2] }} {{ numberCabs.cab102 }} {{ timeSub[15] }}
-          </li>
-          <li class="list-group-item">
-            {{ subject[1] }} {{ numberCabs.cab102 }} {{ timeSub[16] }}
+            {{ subject[9] }} {{ numberCabs.cab102 }} {{ timeSub[16] }}
           </li>
           <li class="list-group-item">
             {{ subject[6] }} {{ numberCabs.cab102 }} {{ timeSub[17] }}
           </li>
           <li class="list-group-item">
-            {{ subject[4] }} {{ numberCabs.cab108 }} {{ timeSub[17] }}
+            {{ subject[4] }} {{ numberCabs.cab102 }} {{ timeSub[18] }}
           </li>
         </ul>
 
-        <ul  class="list-group">
+        <ul class="list-group">
           <li class="list-group-item">{{ days[1] }}</li>
           <li class="list-group-item">
-            {{ subject[9] }} {{ numberCabs.cab110 }} {{ timeSub[11] }}
+            {{ subject[2] }} {{ numberCabs.cab110 }} {{ timeSub[11] }}
           </li>
           <li class="list-group-item">
             {{ subject[2] }} {{ numberCabs.cab110 }} {{ timeSub[12] }}
           </li>
           <li class="list-group-item">
-            {{ subject[2] }} {{ numberCabs.cab101 }} {{ timeSub[13] }}
+            {{ subject[2] }} {{ numberCabs.cab110 }} {{ timeSub[13] }}
           </li>
           <li class="list-group-item">
-            {{ subject[2] }} {{ numberCabs.cab113 }} {{ timeSub[14] }}
+            {{ subject[2] }} {{ numberCabs.cab110 }} {{ timeSub[14] }}
           </li>
           <li class="list-group-item">
-            {{ subject[4] }} {{ numberCabs.cab102 }} {{ timeSub[15] }}
+            {{ subject[9] }} {{ numberCabs.cab110 }} {{ timeSub[15] }}
           </li>
           <li class="list-group-item">
-            {{ subject[4] }} {{ numberCabs.cab102 }} {{ timeSub[16] }}
+            {{ subject[4] }} {{ numberCabs.cab110 }} {{ timeSub[16] }}
           </li>
           <li class="list-group-item">
             {{ subject[5] }} {{ numberCabs.cab122 }} {{ timeSub[17] }}
@@ -100,20 +98,20 @@
           </li>
         </ul>
 
-        <ul  class="list-group">
+        <ul class="list-group">
           <li class="list-group-item">{{ days[2] }}</li>
           <li class="list-group-item"></li>
           <li class="list-group-item">
-            {{ subject[6] }} {{ numberCabs.cab101 }} {{ timeSub[13] }}
+            {{ subject[6] }} {{ numberCabs.cab122 }} {{ timeSub[13] }}
           </li>
           <li class="list-group-item">
-            {{ subject[6] }} {{ numberCabs.cab417 }} {{ timeSub[14] }}
+            {{ subject[6] }} {{ numberCabs.cab122 }} {{ timeSub[14] }}
           </li>
           <li class="list-group-item">
-            {{ subject[6] }} {{ numberCabs.cab102 }} {{ timeSub[15] }}
+            {{ subject[6] }} {{ numberCabs.cab122 }} {{ timeSub[15] }}
           </li>
           <li class="list-group-item">
-            {{ subject[7] }} {{ numberCabs.cab102 }} {{ timeSub[16] }}
+            {{ subject[7] }} {{ numberCabs.cab122 }} {{ timeSub[16] }}
           </li>
           <li class="list-group-item">
             {{ subject[7] }} {{ numberCabs.cab122 }} {{ timeSub[17] }}
@@ -123,10 +121,10 @@
           </li>
         </ul>
 
-        <ul   class="list-group">
+        <ul class="list-group">
           <li class="list-group-item">{{ days[3] }}</li>
           <li class="list-group-item">
-            {{ subject[8] }} {{ numberCabs.cab301 }} {{ timeSub[10] }}
+            {{ subject[1] }} {{ numberCabs.cab301 }} {{ timeSub[10] }}
           </li>
           <li class="list-group-item">
             {{ subject[1] }} {{ numberCabs.cab112 }} {{ timeSub[11] }}
@@ -144,41 +142,38 @@
             {{ subject[4] }} {{ numberCabs.cab103 }} {{ timeSub[15] }}
           </li>
           <li class="list-group-item">
-            {{ subject[4] }} {{ numberCabs.cab103 }} {{ timeSub[16] }}
+            {{ subject[8] }} {{ numberCabs.cab103 }} {{ timeSub[16] }}
           </li>
           <li class="list-group-item">
             {{ subject[8] }} {{ numberCabs.cab301 }} {{ timeSub[17] }}
           </li>
-          <li class="list-group-item">
-            {{ subject[1] }} {{ numberCabs.cab103 }} {{ timeSub[18] }}
-          </li>
         </ul>
 
-        <ul   class="list-group">
+        <ul class="list-group">
           <li class="list-group-item">{{ days[4] }}</li>
           <li class="list-group-item">
             {{ subject[9] }} {{ numberCabs.cab205 }} {{ timeSub[11] }}
           </li>
           <li class="list-group-item">
-            {{ subject[9] }} {{ numberCabs.cab110 }} {{ timeSub[12] }}
+            {{ subject[4] }} {{ numberCabs.cab110 }} {{ timeSub[12] }}
           </li>
           <li class="list-group-item">
-            {{ subject[9] }} {{ numberCabs.cab110 }} {{ timeSub[13] }}
+            {{ subject[1] }} {{ numberCabs.cab110 }} {{ timeSub[13] }}
           </li>
           <li class="list-group-item">
-            {{ subject[10] }} {{ numberCabs.cab108 }} {{ timeSub[14] }}
+            {{ subject[4] }} {{ numberCabs.cab108 }} {{ timeSub[14] }}
           </li>
           <li class="list-group-item">
-            {{ subject[5] }} {{ numberCabs.cab108 }} {{ timeSub[15] }}
+            {{ subject[5] }} {{ numberCabs.cab122 }} {{ timeSub[15] }}
           </li>
           <li class="list-group-item">
-            {{ subject[5] }} {{ numberCabs.cab203 }} {{ timeSub[16] }}
+            {{ subject[5] }} {{ numberCabs.cab122 }} {{ timeSub[16] }}
           </li>
           <li class="list-group-item">
-            {{ subject[7] }} {{ numberCabs.cab110 }} {{ timeSub[17] }}
+            {{ subject[7] }} {{ numberCabs.cab122 }} {{ timeSub[17] }}
           </li>
           <li class="list-group-item">
-            {{ subject[7] }} {{ numberCabs.cab110 }} {{ timeSub[18] }}
+            {{ subject[7] }} {{ numberCabs.cab122 }} {{ timeSub[18] }}
           </li>
         </ul>
       </div>
@@ -196,6 +191,7 @@ export default {
       numberCabs: {
         cab122: "122",
         cab102: "102",
+        cab103: "103",
         cab110: "110",
         cab101: "101",
         cab113: "113",
@@ -205,6 +201,7 @@ export default {
         cab301: "301",
         cab112: "112",
         cab306: "306",
+        cab203: "203",
         cab205: "205",
       },
 
@@ -233,7 +230,6 @@ export default {
         10: "Arduino пр. Кенебаев А",
       },
 
-  
       selectedIndex: true,
 
       Monday: false,
@@ -243,52 +239,46 @@ export default {
       Friday: false,
     };
   },
-  computed: {
-    
-  },
+  computed: {},
   methods: {
-
     selectDay() {
-        const tabs = document.querySelectorAll('.nav-link'),
-        tabItem = document.querySelectorAll('.list-group'),
-        tabParent = document.querySelector('.navbar-nav');
+      const tabs = document.querySelectorAll(".nav-link"),
+        tabItem = document.querySelectorAll(".list-group"),
+        tabParent = document.querySelector(".navbar-nav");
 
-        function hideTab() {
-            tabs.forEach(item => {
-                item.classList.remove('active');
-            });
-            tabItem.forEach(item => {
-                item.classList.add('hide');
-                item.classList.remove('show');
-            });
-        }
-
-        function showItem(i = 0) {
-            tabItem[i].classList.add('show');
-            tabItem[i].classList.remove('hide');
-            tabs[i].classList.add('active');
-        }
-
-        hideTab();
-
-
-        tabParent.addEventListener('click', (e) => {
-            const target = e.target;
-            target.classList.contains('.nav-link'); 
-            tabs.forEach((item, i) => {
-                if (target == item) {
-                    hideTab();
-                    showItem(i);
-                }
-            });
+      function hideTab() {
+        tabs.forEach((item) => {
+          item.classList.remove("active");
         });
-    }
+        tabItem.forEach((item) => {
+          item.classList.add("hide");
+          item.classList.remove("show");
+        });
+      }
 
+      function showItem(i = 0) {
+        tabItem[i].classList.add("show");
+        tabItem[i].classList.remove("hide");
+        tabs[i].classList.add("active");
+      }
 
+      hideTab();
+
+      tabParent.addEventListener("click", (e) => {
+        const target = e.target;
+        target.classList.contains(".nav-link");
+        tabs.forEach((item, i) => {
+          if (target == item) {
+            hideTab();
+            showItem(i);
+          }
+        });
+      });
+    },
   },
   mounted() {
     this.selectDay();
-  }
+  },
 };
 </script>
 <style lang="scss">
@@ -303,19 +293,13 @@ export default {
   }
 }
 
-// // .nav_join {
-// //     display: none;
-// }
-
 .show {
-    opacity: 1;
-    display: block;
+  opacity: 1;
+  display: block;
 }
 
 .hide {
-    display: none;
-    opacity: 0;
+  display: none;
+  opacity: 0;
 }
-
-
 </style>

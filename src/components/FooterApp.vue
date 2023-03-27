@@ -2,7 +2,7 @@
   <section class="footer">
     <div class="container">
       <button @click="addTrue" class="modal_btn">{{ textBtn }}</button>
-      <form action="https://formspree.io/f/xgeqgdga" method="POST">
+      <form action="" method="POST">
         <div v-if="btnAdd" class="modal_item">
          
           <div class="modal_block">
@@ -17,7 +17,7 @@
           </div>
           <div class="modal_block">
             <input
-              type="tel"
+              type="text"
               required
               placeholder="Ваше сообшения"
               name="telephone"
@@ -34,7 +34,7 @@
         </div>
       </form>
 
-      <div class="footer_info">© 2023 knurkasym.ru</div>
+      <div class="footer_info">© 2023</div>
     </div>
   </section>
 </template>
